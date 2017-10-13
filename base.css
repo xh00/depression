@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color:white;
+}
+p {
+    font-size: 10px !important;
+}
+.jumbotron {
+    background-color:black;
+}
+.b1 {
+    border-bottom-color: white;
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+}
+.b2 {
+    border-color: white;
+    border-width: thick;
+    border-style: solid;
+}
+.btn-default {
+    background-color:black;
+    color:white;
+    border-color: white;
+    border-width: thin;
+    border-style: solid;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+    background-color:white !important;
+    color:black !important;
+    border-color: white !important;
+    border-width: thin !important;
+    border-style: solid !important;
+    outline: 0px !important;
+}

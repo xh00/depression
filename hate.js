@@ -30,7 +30,11 @@ var unmotivationdict = [
     "EU Privacy Laws (ip)",
     "lenin",
     "stalin",
-    "The Fancy Scrolling on Chrome"
+    "The Fancy Scrolling on Chrome",
+    
+    // @David
+    "HMS London"
+    
 ]
 function hateSpeech() {
     $("#hateDialog").fadeOut(500);

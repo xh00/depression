@@ -31,6 +31,7 @@ var unmotivationdict = [
     "lenin",
     "stalin",
     "The Fancy Scrolling on Chrome",
+    "Just.... JavaScript",
     
     // @David
     "HMS London"

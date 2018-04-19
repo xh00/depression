@@ -1,6 +1,5 @@
 $("#hateOutput").hide();
-$(document).ready(function() {
-});
+
 var unmotivationdict = [
     "If you think about it you're useless as a human",
     'Nobody cares',
@@ -16,7 +15,7 @@ var unmotivationdict = [
     "Nintendo's Servers",
     "mist.gq",
     "The Wii U",
-    "Tor...sorry",
+    "Tor... sorry",
     "Matthews.ga has a list of people's IPs called DDoS These Idiots.",
     "Firefox cache",
     "The \"Professionals\" are no longer \"on the job\"",
@@ -31,16 +30,42 @@ var unmotivationdict = [
     "lenin",
     "stalin",
     "The Fancy Scrolling on Chrome",
-    "Just.... JavaScript",
-    '<video autoplay style="width: 100%;"><source src="https://cdn.discordapp.com/attachments/391551839360909312/435549613546799134/Harry_Enfields_Patreon.mp4"></video>',
+    "Just... JavaScript",
+    '<video autoplay style="width: 100%;"><source src="media/harry-enfields-patreon.mp4"></video>',
     
     // @David
-    "HMS London"
+    "HMS London",
     
-]
+    "Please install Adobe Flash Player to continue",
+    "This site is served over IPv4",
+    "Your BT bill arrived",
+    "<s>Mike the depressed giaffe</s>",
+    "Your system crashed",
+    "\"The wind took it\"",
+    "Restart to install updates",
+    "Discord's uptime",
+    "*<i>Opens Discord</i>* Your system has ran out of memory",
+    "Never mind",
+    '<video autoplay style="width: 100%;"><source src="media/youre-nothing.mp4"></video>',
+    "Windows + Chromium + JS =",
+    "depresswi7wy6jbu.onion"
+];
+
 function hateSpeech() {
     $("#hateDialog").fadeOut(500);
     $("#hateOutput").delay(500).fadeIn(500);
-    var randomHate = Math.floor(Math.random() * (unmotivationdict.length));
+    var randomHate = Math.floor(Math.random() * unmotivationdict.length);
     document.getElementById("hateOutput").innerHTML = unmotivationdict[randomHate];
+    if (unmotivationdict[randomHate] === 'Windows + Chromium + JS =') throw bsod();
+}
+
+var $bsod = $('#bsod'),
+    fullscreen = $bsod.parent()[0];
+    
+function bsod(event) {
+    if (fullscreen.webkitRequestFullScreen) fullscreen.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+    else if (fullscreen.mozRequestFullScreen) fullscreen.mozRequestFullScreen();
+    else fullscreen.requestFullScreen();
+    
+    window.addEventListener('keydown', event => event.preventDefault());
 }

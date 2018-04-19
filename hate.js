@@ -36,7 +36,7 @@ var unmotivationdict = [
     // @David
     "HMS London",
     
-    "Please install Adobe Flash Player to continue<br /><a href=\"javascript:alert('OOPS YOUR SYSTEM HACKED')\"><img src=\"media/get-adobe-flash-player-icon.png\" /></a>",
+    "Please install Adobe Flash Player to continue<br /><br /><a href=\"javascript:alert('OOPS YOUR SYSTEM HACKED')\"><img src=\"media/get-adobe-flash-player-icon.png\" /></a>",
     "This site is served over IPv4",
     "Your BT bill arrived",
     "<s>Mike the depressed giaffe</s>",

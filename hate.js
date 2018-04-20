@@ -47,7 +47,7 @@ var unmotivationdict = [
     "Discord's uptime",
     "*<i>Opens Discord</i>* Your system has ran out of memory",
     "Never mind",
-    '<video autoplay style="width: 100%;"><source src="media/youre-nothing.mp4"></video>',
+    '<video autoplay loop style="width: 100%;"><source src="media/youre-nothing.mp4"></video>',
     "Windows + Chromium + JS =",
     "depresswi7wy6jbu.onion"
 ];

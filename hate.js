@@ -33,6 +33,7 @@ var unmotivationdict = [
     "Just... JavaScript",
     '<video autoplay style="width: 100%;"><source src="media/harry-enfields-patreon.mp4"></video>',
     "Pink PSP",
+    '<img src="media/great.png" onhover="awful()" width="200%">',
     
     // @David
     "HMS London",
@@ -51,7 +52,11 @@ var unmotivationdict = [
     "Windows + Chromium + JS =",
     "depresswi7wy6jbu.onion"
 ];
-
+function awful() {
+    while(true) {
+        alert("delete it [tor]");
+    }
+}
 function hateSpeech() {
     $("#hateDialog").fadeOut(500);
     $("#hateOutput").delay(500).fadeIn(500);

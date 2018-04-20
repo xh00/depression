@@ -32,6 +32,7 @@ var unmotivationdict = [
     "The Fancy Scrolling on Chrome",
     "Just... JavaScript",
     '<video autoplay style="width: 100%;"><source src="media/harry-enfields-patreon.mp4"></video>',
+    "Pink PSP",
     
     // @David
     "HMS London",

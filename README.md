@@ -7,4 +7,4 @@ You'll get it....
 Visit the even more bloody awful version:
 http://depresswi7wy6jbu.onion
 
-<sup><i>Really, how did you even get here? :thinking:</i></sup>
+<sup><i>Really, how did you even get here? </i>:thinking:</sup>

@@ -48,6 +48,7 @@ var unmotivationdict = [
     "Never mind",
     '<video autoplay style="width: 100%;"><source src="media/youre-nothing.mp4"></video>',
     "Windows + Chromium + JS =",
+    "downloadmoreram.com doesn't do anything",
     "depresswi7wy6jbu.onion"
 ];
 

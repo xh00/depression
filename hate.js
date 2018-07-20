@@ -38,6 +38,9 @@ var unmotivationdict = [
     // @David
     "HMS London",
     
+    // The final day of school
+    "2018-07-20",
+    
     "Please install Adobe Flash Player to continue<br /><br /><a href=\"javascript:alert('OOPS YOUR SYSTEM HACKED')\"><img src=\"media/get-adobe-flash-player-icon.png\" /></a>",
     "Your BT bill arrived",
     "<s>Mike the depressed giaffe</s>",

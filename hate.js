@@ -51,14 +51,17 @@ var unmotivationdict = [
     "*<i>Opens Discord</i>* Your system has ran out of memory",
     "Never mind",
     '<video autoplay loop style="width: 100%;"><source src="media/youre-nothing.mp4"></video>',
+    "Chrome 69",
     "Windows + Chromium + JS =",
     "depresswi7wy6jbu.onion"
 ];
+
 function awful() {
     while(true) {
         alert("delete it [tor]");
     }
 }
+
 function hateSpeech() {
     $("#hateDialog").fadeOut(500);
     $("#hateOutput").delay(500).fadeIn(500);

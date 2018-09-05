@@ -54,6 +54,7 @@ var unmotivationdict = [
     "Chrome 69",
     "Bank grade security <s>aka plain text password storage</s>",
     "Windows + Chromium + JS =",
+    "downloadmoreram.com doesn't do anything",
     "depresswi7wy6jbu.onion"
 ];
 

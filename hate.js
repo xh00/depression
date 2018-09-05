@@ -33,7 +33,6 @@ var unmotivationdict = [
     "Just... JavaScript",
     '<video autoplay style="width: 100%;"><source src="media/harry-enfields-patreon.mp4"></video>',
     "Pink PSP",
-    "Apple's price range",
     '<img src="media/great.png" onhover="awful()" width="200%">',
     
     // @David

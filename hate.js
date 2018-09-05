@@ -52,6 +52,7 @@ var unmotivationdict = [
     "Never mind",
     '<video autoplay loop style="width: 100%;"><source src="media/youre-nothing.mp4"></video>',
     "Chrome 69",
+    "Bank grade security <s>aka plain text password storage</s>",
     "Windows + Chromium + JS =",
     "depresswi7wy6jbu.onion"
 ];

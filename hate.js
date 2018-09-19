@@ -56,7 +56,8 @@ var unmotivationdict = [
     "Windows + Chromium + JS =",
     "downloadmoreram.com doesn't do anything",
     "depresswi7wy6jbu.onion",
-    "Kodak cameras"
+    "Kodak cameras",
+    "MKCollege"
 ];
 
 function awful() {

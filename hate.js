@@ -32,12 +32,16 @@ var unmotivationdict = [
     "The Fancy Scrolling on Chrome",
     "Just... JavaScript",
     '<video autoplay style="width: 100%;"><source src="media/harry-enfields-patreon.mp4"></video>',
+    "Pink PSP",
+    '<img src="media/great.png" onhover="awful()" width="200%">',
     
     // @David
     "HMS London",
     
+    // The final day of school
+    "2018-07-20",
+    
     "Please install Adobe Flash Player to continue<br /><br /><a href=\"javascript:alert('OOPS YOUR SYSTEM HACKED')\"><img src=\"media/get-adobe-flash-player-icon.png\" /></a>",
-    "This site is served over IPv4",
     "Your BT bill arrived",
     "<s>Mike the depressed giaffe</s>",
     "Your system crashed",
@@ -46,13 +50,23 @@ var unmotivationdict = [
     "Discord's uptime",
     "*<i>Opens Discord</i>* Your system has ran out of memory",
     "Never mind",
-    '<video autoplay style="width: 100%;"><source src="media/youre-nothing.mp4"></video>',
+    '<video autoplay loop style="width: 100%;"><source src="media/youre-nothing.mp4"></video>',
+    "Chrome 69",
+    "Bank grade security <s>aka plain text password storage</s>",
     "Windows + Chromium + JS =",
     "downloadmoreram.com doesn't do anything",
     "depresswi7wy6jbu.onion",
-    
+
+    "Kodak cameras",
+    "MKCollege",
     "Thomas Cook",
 ];
+
+function awful() {
+    while(true) {
+        alert("delete it [tor]");
+    }
+}
 
 function hateSpeech() {
     $("#hateDialog").fadeOut(500);
